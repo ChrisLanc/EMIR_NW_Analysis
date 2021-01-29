@@ -20,7 +20,7 @@ import random
 import scipy
 import time
 import seaborn as sns
-from networkx import community as com
+#
 import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
@@ -1429,13 +1429,13 @@ layer_graphs_undirected = {'CU': graph_sc_CU.to_undirected(), 'CR': graph_sc_CR.
 # In[566]:
 
 
-jaccard_similarity_by_layer(layer_graphs_undirected, directed = False, common_only = True)
+jaccard_similarity_by_layer(layer_graphs_undirected, common_only = True)
 
 
 # In[567]:
 
 
-jaccard_similarity_by_layer(layer_graphs_undirected, directed = False, common_only = False)
+jaccard_similarity_by_layer(layer_graphs_undirected, common_only = False)
 
 
 # # Kendalls Tau Degree Correlation

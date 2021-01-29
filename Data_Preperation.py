@@ -3,7 +3,7 @@
 
 
 '''This script provides the python implementations for most of the data preprocessing, note that some of the preprocessing steps such as the trade matching and subsampling of uncleared OTC transactions
-has been done on the Bundesbank database in SQL and are not shown here.'''
+has been done on the database in SQL and are not shown here.'''
 
 # In[589]:
 
