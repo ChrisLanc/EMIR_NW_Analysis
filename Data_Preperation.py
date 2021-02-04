@@ -1,7 +1,8 @@
 
 
-'''This script provides the python implementations for most of the data preprocessing, note that some of the preprocessing steps such as the trade matching and subsampling of uncleared OTC transactions
-has been done on the database in SQL and are not shown here.'''
+'''This script provides the python implementations for most of the data preprocessing, note that some of the preprocessing steps such as the trade matching and subsampling of 
+uncleared OTC transactions has been done on the database in SQL and are not shown here.
+The script was origninally constructed as a Jupyter Notebook, as specific data and results cannot be shown it is provided in classical format instead.'''
 
 # In[589]:
 
@@ -28,7 +29,7 @@ from scipy.stats import pearsonr
 # In[399]:
 
 
-file = r"file_path"
+file = r"file_path" # placeholder for the acctual filepath
 
 
 # In[414]:
