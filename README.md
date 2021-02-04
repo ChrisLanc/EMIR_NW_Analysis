@@ -14,4 +14,4 @@ This work analyzes the bilateral exposure network of the German uncleared OTC de
 2. Initiate the different graph structures used in subsequent analysis. (Un-)directd, (Un-)weighted, Quasi-Multiplex etc...
 3. Generate a set of different metrics to characterize the topology of the different network asset classes.
 4. Use a state of the art Multiplex Network Centrality metric (MultiRank) to identify the most interconnected institutions in the multiplex network. Subsequently attempt to reconcile the behavior of the algorithm to break it down to more readily understandable metrics and also compare it to more established network centrality metrics in order to gauge potential benefits.
-5. Based on the respective MultiRank centrality, visualize the interconnectedness in the identified core of institutions in a Heat Map. 
+5. Based on the respective MultiRank centrality, visualize the interconnectedness in the identified core of institutions based on the bilateral share of common connections and the strength in the overlap of these shared connections. 
