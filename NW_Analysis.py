@@ -1,7 +1,8 @@
 
 # coding: utf-8
 
-''' This script provides the python implementations for the analytical part of the thesis '''
+''' This script provides the python implementations for the analytical part of the thesis
+Orignially it was constructed as a Jupyter Notebook, acctual results cannot be shows however, therefor it is left in classical format'''
 
 # In[231]:
 
@@ -1518,7 +1519,8 @@ for key, graph in layer_graphs_directed.items():
 
 
 # ##### convert the graphs to numpy arrays in order to allow matrix calculations <br>
-# first however, it is important to set a common ordering so that the elements of the matrices correspond to eachother i.e. the same node. Same would make sense for the layers, as their order also is not fixed when drawn from the dictionary.
+# first however, it is important to set a common ordering so that the elements of the matrices correspond to eachother i.e. the same node. Same would make sense for the layers
+# as their order also is not fixed when drawn from the dictionary.
 # 
 
 # In[580]:
@@ -1546,7 +1548,7 @@ def MultiRank(A, M, N, alpha = 0.85, gamma = 1, s = -1, a = 1, quadratic_error =
 
 ################################################
 
-# Python implementation of the original Matlab code as takes from:
+# Custom Python implementation of the original Matlab code as takes from:
     
 # https://github.com/ginestrab/MultiRank/blob/master/MultiRank_Nodes_Layers.m
     
